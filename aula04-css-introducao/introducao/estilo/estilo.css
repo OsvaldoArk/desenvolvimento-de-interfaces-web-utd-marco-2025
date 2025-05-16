@@ -1,0 +1,51 @@
+
+
+body{
+    background-color: black;
+}
+/*tudo o que estiver aqui dentro é um comentário*/
+h1{
+    color: cornflowerblue !important;
+}
+
+.titulo-principal{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:aliceblue !important;
+}
+
+.titulo-principal-primary{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:chartreuse !important;
+}
+
+.titulo-principal-erro{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:crimson !important;
+}
+
+.container-imagem-principal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#imagem-principal{
+    width:150px;
+    height:auto;
+}

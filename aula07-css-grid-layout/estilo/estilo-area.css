@@ -1,0 +1,44 @@
+.container{
+    margin: 0px 10px;
+    box-sizing: border-box;
+    display: grid;
+    gap:5px;
+    grid-template-columns: 36vw 36wv 10vw;
+    grid-template-rows: 10vh 40vh 40vh 10vh;
+    grid-template-areas:
+    'nav nav nav'
+    'header header aside'
+    'esquerda direita aside'
+    'footer footer footer';
+    background-color: black;
+}
+
+nav{
+    background-color: plum;
+    grid-area: nav;
+}
+
+header{
+    background-color: chartreuse;
+    grid-area: header;
+}
+
+.esquerda{
+    background-color: darkcyan;
+    grid-area: esquerda;
+}
+
+.direita{
+    background-color: crimson;
+    grid-area:direita
+}
+
+aside{
+    background-color: darkorange;
+    grid-area: aside;
+}
+
+footer{
+    background-color: darkorchid;
+    grid-area:footer;
+}

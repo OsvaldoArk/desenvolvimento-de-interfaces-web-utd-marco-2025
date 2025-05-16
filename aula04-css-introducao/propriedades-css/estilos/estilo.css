@@ -1,0 +1,27 @@
+
+
+#titulo-principal{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    width:80vw;
+    height:auto;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 5px 5px darkblue;
+}
+
+#container-image{
+
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: chocolate;
+    background: url(../assets/rio.jpg);
+    background-size: cover;
+    background-position: 50%10%;
+    background-repeat: no-repeat;
+}
