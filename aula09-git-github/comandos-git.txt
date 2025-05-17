@@ -1,0 +1,36 @@
+criar um repositório git : git init
+
+clonar um repositório já existente: git clone <url>
+
+verificar o status dos arquivos no repositório: git status
+
+adicionar os arquivos para o monitoramento: git add <nome do arquivo> / git add .
+
+ver as configurações de usuário: git config --list
+
+modificar o usuario: git config --global user.name <nome do usuario>
+
+modificar o email: git config --global user.email <email do usuario>
+
+fazer o commit: git commit -m "[commit semantico da tarefa]: <descricao>"
+
+setar o repositório principal para o main: git branch -m master main
+
+adicionar o endereço do repositório remoto: git remote add origin <url>
+
+remover o endereço do repositório remote: git remove remove origin
+
+enviar o repositório local para o github: git push origin -u <branch>
+
+configurar a resolução de merge dos arquivos: git config pull.rebase true
+
+finalizar o rebase: git rebase --continue
+
+listar as branches: git branch
+
+criar uma nova branch e trocar para ela: git checkout -b <nome da branch>
+
+
+
+
+
