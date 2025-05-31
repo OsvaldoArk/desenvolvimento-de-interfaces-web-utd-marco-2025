@@ -24,5 +24,19 @@ var r3 = 10+"10"
 r4 = true && false
 r5 = true || false
 
-console.log(r4)
-console.log(r5)
+//console.log(r4)
+//console.log(r5)
+
+//Operador Ternário se()?[verdade]:[falso]
+
+var produto = 350
+
+var promocao = false
+
+var cupom = false
+
+valor_final = (promocao === true) ? produto - (produto*0.35) : (cupom === true) ? produto - (produto*0.20) : produto
+
+console.log(valor_final)
+
+
