@@ -1,0 +1,36 @@
+#painel{
+    margin-top: 10px;
+    display: grid;
+    gap:10px;
+    grid-template-columns: 40vw 60vw;
+    grid-template-rows: repeat(5,7vh) 25vh;
+    grid-template-areas: 
+    'poster titulo'
+    'poster ano'
+    'poster lancamento'
+    'poster duracao';
+}
+
+#titulo{
+    grid-area: titulo;
+    font-size: 90%;
+}
+
+#ano{
+    grid-area: ano;
+}
+
+#lancamento{
+    grid-area:lancamento;
+}
+
+#duracao{
+    grid-area:duracao;
+}
+
+#poster > img{
+
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+}

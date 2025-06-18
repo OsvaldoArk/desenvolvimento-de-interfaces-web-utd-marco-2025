@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="formulario">
+        <input type="number" name="largura" id="" placeholder="largura">
+        <input type="number" name="altura" id="" placeholder="altura">
+        <button id="calcular">calcular preço</button>
+    </div>
+    <div>
+        <p>valor: R$</p>
+        <div id="total"></div>
+    </div>
+    <script>
+        const metroQuadrado = 10.0
+
+        document.getElementById('calcular').addEventListener('click',()=>{
+            const largura = document.getElementsByName('largura')[0].value;
+            const altura = document.getElementsByName('altura')[0].value;
+            const total = document.getElementById('total');
+
+            const preco = largura * altura * metroQuadrado;
+
+            total.innerText = preco;
+        })
+    </script>
+</body>
+</html>
