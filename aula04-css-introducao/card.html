@@ -6,30 +6,45 @@
     <title>Document</title>
     <style>
         #card{
+            margin:50px;    
+            padding:0px;
             width: 100px;
             height:150px;
-            background-color: blue;
+            border-radius: 5px;
+            border: 1px solid rgb(102, 83, 225);
+            background-color: cornflowerblue;
+        }
+
+        #card > h6{
+            font-size: 10px;
+            margin: 5px auto;
+            text-align: center;
+        }
+
+        #card > p{
+            margin: 5px;
+            font-size: 4px;
+            text-align: justify;
         }
 
         #card > #photo{
+            border-top-left-radius: inherit;
+            border-top-right-radius: inherit;
+            margin-top: 0px;
             width: 100%;
-            height:200px;
+            height:70px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBqeMa2gULPP4VsejSKMjGlqQxujpZMmcALw&s');
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
         }
-
-        #photo > img{
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-
     </style>
 </head>
 <body>
 
     <div id="card">
-        <figure id="photo">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBqeMa2gULPP4VsejSKMjGlqQxujpZMmcALw&s" alt="">
-        </figure>
+        <div id="photo">
+        </div>
         <h6>this is a photo</h6>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, quasi. Accusamus, quaerat exercitationem? Quidem earum culpa quo perspiciatis, sint facere hic! Expedita delectus iste aperiam, porro nihil voluptate quisquam neque!
